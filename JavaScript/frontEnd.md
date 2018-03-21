@@ -1,6 +1,6 @@
 # 前端相关
 
-## 前端错误监控
+## 前端错误监控上报
 > [MDN onerror](https://developer.mozilla.org/zh-CN/docs/Web/API/GlobalEventHandlers/onerror)
 ```
 /**
