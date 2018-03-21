@@ -14,3 +14,7 @@
  */
 window.onerror = function(message, source, lineno, colno, error) { ... }
 ```
+## ES6模块与CommonJS模块差异
+>Tips：Nodejs中使用的是CommonJS,因此模块在导出的时候所有的导出值就已经确定了,但是你可以通过导出一个函数返回模块内部未导出的值来实现动态值。
+1. CommonJS模块输出的是一个值的拷贝,ES6模块使用的是值的引用。
+2. CommonJS模块在运行是加载,ES6 模块编译时输出。
