@@ -53,3 +53,13 @@ module.exports.a=100000
 //外部模块获取到的a的值已改变
 ```
 
+## JavaScript的数据类型
+>[JavaScript中基本数据类型和引用数据类型的区别](https://www.cnblogs.com/cxying93/p/6106469.html)
+
+1. 基础数据类型/简单的数据段：Number、String、Boolean、Null、Undefined
+    * 按值访问,因此赋值操作实际上是对值进行了一份拷贝。
+
+
+2. 引用数据类型/多个数据段的组合: Array,Object,Fuction
+    * 访问对象时,拿到的是对象在堆内存中的地址,按照地址去寻找对象中的值。这就是传说中的按引用访问。
+    * 赋值操作时,实际上是复制了一个对象在内存的地址,寻找到的是同一个对象，因此改变一个的对象的值会导致另外一个对象被改变。[Object.assign](https://zhuanlan.zhihu.com/p/29235193)可以用来拷贝引用对象的可枚举属性。
