@@ -27,6 +27,7 @@
 
 ## 进程间通信的几种方式 [来源地址](https://blog.csdn.net/wh_sjc/article/details/70283843)
 > 管道/消息队列/共享存储/信号量/Socket/Stream
+
 > 1.管道：速度慢，容量有限，只有父子进程能通讯    
 
 > 2.FIFO：任何进程间都能通讯，但速度慢    
